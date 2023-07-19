@@ -1,0 +1,88 @@
+{
+  "cwd": "/home/mateen/Documents/office data/mobile-apps/Framework7",
+  "type": [
+    "capacitor"
+  ],
+  "name": "Demo",
+  "framework": "core",
+  "template": "split-view",
+  "bundler": "vite",
+  "cssPreProcessor": "less",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": true,
+  "customBuildConfig": {
+    "rtl": false,
+    "darkTheme": true,
+    "lightTheme": true,
+    "themes": [
+      "ios",
+      "md"
+    ],
+    "components": [
+      "dialog",
+      "popup",
+      "login-screen",
+      "popover",
+      "actions",
+      "sheet",
+      "toast",
+      "preloader",
+      "progressbar",
+      "sortable",
+      "swipeout",
+      "accordion",
+      "contacts-list",
+      "virtual-list",
+      "list-index",
+      "timeline",
+      "tabs",
+      "panel",
+      "card",
+      "chip",
+      "form",
+      "input",
+      "checkbox",
+      "radio",
+      "toggle",
+      "range",
+      "stepper",
+      "smart-select",
+      "grid",
+      "calendar",
+      "picker",
+      "infinite-scroll",
+      "pull-to-refresh",
+      "data-table",
+      "fab",
+      "searchbar",
+      "messages",
+      "messagebar",
+      "swiper",
+      "photo-browser",
+      "notification",
+      "autocomplete",
+      "tooltip",
+      "gauge",
+      "skeleton",
+      "color-picker",
+      "treeview",
+      "text-editor",
+      "area-chart",
+      "pie-chart",
+      "breadcrumbs",
+      "typography"
+    ]
+  },
+  "pkg": "io.framework7.myapp",
+  "capacitor": {
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  }
+}
